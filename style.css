@@ -1,0 +1,41 @@
+
+*{
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+h1 {
+
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    box-sizing: content-box;
+    text-align: center;
+    text-shadow: 10px;
+
+
+    
+    
+}
+
+.C1 { 
+    
+        width: auto; 
+        height: 200px;
+        border-radius: 10px; 
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+        display: flex;
+        align-items: center;
+        color: #fff; 
+        font-family: Arial, sans-serif;  
+         text-align: center;
+    
+
+
+         
+}
+
