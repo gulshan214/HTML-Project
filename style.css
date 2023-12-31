@@ -1,4 +1,4 @@
-
+/*This css id for background image*/
 *{
     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-size: cover;
@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
 }
 
-
+/*This css is for styling H1 tag*/
 
 h1 {
 
