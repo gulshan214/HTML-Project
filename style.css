@@ -1,4 +1,3 @@
-/*This css id for background image*/
 *{
     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-size: cover;
@@ -6,46 +5,35 @@
     background-repeat: no-repeat;
 }
 
-/*This css is for styling H1 tag*/
-
 h1 {
-
     color: black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     box-sizing: content-box;
     text-align: center;
-    text-shadow: 10px;
-
-
-    
-    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.C1 { 
-    
-        width: 40%; 
-        height: 200px;
-        border-radius: 10px; 
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
-        display: flex;
-        align-items: center;
-        color: #fff; 
-        font-family: Arial, sans-serif;  
-        align-self: center;
-       
+.C1 {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    align-self: center;
 }
 
-#name { 
-    width: 100%;
+#myimg {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%; /* Set a width as needed */
+}
 
-text-align: left;
-color:black;
-font-size: x-large;
- }
-
- #img{
-width:auto;
-align-content:left;
-border-radius:10px;
- }
+#myimg img {
+    width: auto;
+    border-radius: 50%;
+}
