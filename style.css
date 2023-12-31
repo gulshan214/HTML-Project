@@ -32,10 +32,20 @@ h1 {
         align-items: center;
         color: #fff; 
         font-family: Arial, sans-serif;  
-         text-align: center;
-    
-
-
-         
+        
+       
 }
 
+#name { 
+    width: 100%;
+
+text-align: center;
+color: green;
+font-size: x-large;
+ }
+
+ #img{
+width:auto;
+align-content:left;
+
+ }
