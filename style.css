@@ -1,4 +1,4 @@
-*{
+body {
     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-size: cover;
     background-position: center;
@@ -15,7 +15,10 @@ h1 {
 }
 
 .C1 {
-    background-color: antiquewhite;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 50%;
     height: 200px;
     border-radius: 10px;
@@ -25,6 +28,7 @@ h1 {
     color: #fff;
     font-family: Arial, sans-serif;
     align-self: center;
+    text-align: center;
 }
 
 #myimg {
@@ -34,6 +38,46 @@ h1 {
 }
 
 #myimg img {
+    width: auto;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.C2 {
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    align-self: center;
+    text-align: center;
+}
+
+#myimg1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%; /* Set a width as needed */
+}
+
+#myimg1 img {
     width: auto;
     border-radius: 50%;
 }
