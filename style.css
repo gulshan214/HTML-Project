@@ -24,7 +24,7 @@ h1 {
 
 .C1 { 
     
-        width: auto; 
+        width: 40%; 
         height: 200px;
         border-radius: 10px; 
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
@@ -32,20 +32,20 @@ h1 {
         align-items: center;
         color: #fff; 
         font-family: Arial, sans-serif;  
-        
+        align-self: center;
        
 }
 
 #name { 
     width: 100%;
 
-text-align: center;
-color: green;
+text-align: left;
+color:black;
 font-size: x-large;
  }
 
  #img{
 width:auto;
 align-content:left;
-
+border-radius:10px;
  }
