@@ -28,21 +28,27 @@ h1 {
     color: #fff;
     font-family: Arial, sans-serif;
     align-self: center;
-    text-align: center;
+    
+    justify-content: space-between; /* Spread items to both ends */
 }
 
-#myimg {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%; /* Set a width as needed */
-}
+
 
 #myimg img {
     width: auto;
     border-radius: 50%;
+    order: 0;
+    
 }
 
+#name{
 
+
+    float: right;
+    width: fit-content;
+    order: 1;
+    text-align: center;
+}
 
 
 
